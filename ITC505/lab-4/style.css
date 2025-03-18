@@ -1,0 +1,68 @@
+/* General Styling */
+body {
+    font-family: "Georgia", serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+    margin: 40px;
+    padding: 20px;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    background-color: #004080;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Headings */
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 22px;
+    margin-top: 15px;
+}
+
+/* Paragraphs */
+p {
+    margin-bottom: 15px;
+}
+
+/* Lists */
+ul {
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Addendum Section */
+.addendum {
+    background-color: #e3f2fd;
+    padding: 20px;
+    border-left: 5px solid #004080;
+    margin-top: 40px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 40px;
+    padding: 10px;
+    background-color: #004080;
+    color: white;
+    border-radius: 8px;
+}
