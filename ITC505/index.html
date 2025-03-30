@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holy Grail</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>My Holy Grail Page</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>User Input Form</h2>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message"></textarea><br><br>
+
+            <button id="submitButton">Submit</button>
+
+            <div id="output"></div>
+        </main>
+        <aside>
+            <img src="image.jpg">
+        </aside>
+        <footer>
+            <p>Addendum:
+                This JavaScript application provides a simple form within a Holy Grail layout. 
+                It collects user input for name, email, and message, and displays the submitted data.</p>
+                <p>Solution:
+                The application uses JavaScript to retrieve input values from the form fields and display them in a designated output area. 
+                Basic input validation is included to ensure all fields are filled.</p>
+                <p>Difficulties Encountered:
+                This is a very basic form with minimal functionality. It would be necessary for a production-level application.
+            </p>
+            <p>Last updated: <span id="lastModified"></span></p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
