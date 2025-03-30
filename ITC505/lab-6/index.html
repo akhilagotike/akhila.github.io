@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 6 - Holy Grail Layout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>My Holy Grail Page</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>More Fun with JavaScript!</h2>
+
+            <p>Enter a temperature in Celsius and convert to Fahrenheit:</p>
+            <input type="number" id="celsiusInput">
+            <button id="celsiusButton">Convert to Fahrenheit</button>
+            <p id="fahrenheitResult"></p>
+
+            <p>Enter two numbers to add them:</p>
+            <input type="number" id="num1">
+            <input type="number" id="num2">
+            <button id="addButton">Add</button>
+            <p id="sumResult"></p>
+
+            <p>Enter a string to see if it is a palindrome:</p>
+            <input type="text" id="palindromeInput">
+            <button id="palindromeButton">Check Palindrome</button>
+            <p id="palindromeResult"></p>
+
+        </main>
+        <aside>
+                <img src="eyewt.jpg">
+            </a>
+        </aside>
+        <footer>
+            <p>
+                Addendum:
+                This JavaScript program features three interactive elements. First, it converts Celsius to Fahrenheit. Then, it adds two numbers. Finally, it checks if a string is a palindrome. 
+                It retrieves input from the user, performs the calculations or string manipulation, and displays the result.
+                
+                Solution:
+                The temperature conversion uses a standard formula. The addition function parses the input, and the palindrome checker removes non-alphanumeric characters, converts to lowercase, and compares the string to its reversed version.
+                
+                Difficulties Encountered:
+                Ensuring input validation to handle non-numeric inputs was a key consideration.
+            </p>
+            <p>Last updated: <span id="lastModified"></span></p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,112 @@
+.container {
+    display: grid;
+    grid-template-areas:
+        "header header header"
+        "nav main ads"
+        "footer footer footer";
+    grid-template-columns: 150px 1fr 200px;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+header {
+    grid-area: header;
+    background-color: #fff8e1;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+nav {
+    grid-area: nav;
+    background-color: #fff8e1;
+    padding: 10px;
+}
+
+main {
+    grid-area: main;
+    padding: 20px;
+}
+
+aside {
+    grid-area: ads;
+    background-color: #fff8e1;
+    padding: 10px;
+    text-align: center;
+}
+
+footer {
+    grid-area: footer;
+    background-color: #fff8e1;
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    margin-bottom: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 3px;
+    background-color: #ffe082;
+}
+
+nav a:hover {
+    background-color: #ffd54f;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+input[type="number"],
+input[type="text"] {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 200px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
+
+#result,
+#fahrenheitResult,
+#sumResult,
+#palindromeResult {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+aside img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer p {
+    font-size: 0.9em;
+    line-height: 1.6;
+}
