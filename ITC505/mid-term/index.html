@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mid-termTreasure Hunt</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="story-container">
+        <h1>Treasure Hunt</h1>
+        <img id="story-image" src="" alt="Story Image">
+        <p id="story-text"></p>
+        <div id="choices-container"></div>
+        <button id="restart-btn" onclick="startGame()">Restart</button>
+    </div>
+    <div>
+        <p><strong>Addendum</strong></p>
+        <p>This project is an interactive "Choose Your Own Adventure" story created using HTML, CSS, and JavaScript. The story follows Gautham Kumar Varma on a treasure hunt, where the player makes choices that change the outcome.</p>
+        <p>The JavaScript dynamically updates the story text, images, and choices. A restart button is included on every page so players can easily start over at any time.</p>
+        <p>Challenges Faced:
+        <p>Restart Function: Made sure the restart button appears on all pages.</p>
+        <p>Styling Issues: Adjusted CSS for better readability and user experience.</p>
+        <p>This project helped improve my JavaScript and CSS skills while making an engaging interactive story.
+        </p>
+    </div>
+    <script src="script.js"></script>
+    <footer>
+        <p>Last updated: <span id="last-updated"></span></p>
+    </footer>
+    
+    <script>
+        document.getElementById("last-updated").textContent = new Date().toLocaleString();
+    </script>
+    
+</body>
+</html>
