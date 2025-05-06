@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lights Out</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Lights Out</h1>
+
+  <label for="level">Choose Difficulty:</label>
+  <select id="level">
+    <option value="3">Easy</option>
+    <option value="5" selected>Medium</option>
+    <option value="7">Hard</option>
+  </select>
+  <button id="start-btn">Start Game</button>
+
+  <div id="puzzle-grid"></div>
+
+  <section id="notes">
+    <h2>Addendum</h2>
+    <p>This game was built using JavaScript and CSS grid. Depending on the level selected, the grid size changes (3x3, 5x5, 7x7). The starting configuration is created by making random valid toggles on an all-lit board, ensuring it's always solvable.</p>
+    <p>The biggest challenge was making the game flexible to work for different grid sizes and random setups. I used a loop to simulate player moves during board generation to overcome this.</p>
+    <p>I learned how to use dynamic layout rendering and improved my skills in DOM scripting and event-driven logic through this project.</p>
+  </section>
+
+  <footer>
+    <p>Last updated: <span id="lastModified"></span></p>
+  </footer>
+  <script>
+    document.getElementById('lastModified').textContent = document.lastModified;
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
